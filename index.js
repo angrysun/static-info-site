@@ -9,7 +9,7 @@ const navbar = (
   </nav>
 )
 
-ReactDom.render(
+ReactDOM.render(
   navbar,
   document.getElementById('root')
 )
