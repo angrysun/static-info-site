@@ -3,7 +3,7 @@
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className="navbar">
       {/* <img
         src={reactLogo}
         alt="React Logo"
