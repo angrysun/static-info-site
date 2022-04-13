@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
+  /* background: #282d35; */
 }
 
 .navbar {
@@ -35,4 +36,32 @@ body {
   align-content: center;
   height: 26px;
   margin: 4px;
+}
+
+main {
+  color: white;
+  background: #282d35;
+  height: 100vh;
+  margin-top: 6px;
+  margin: 0;
+  /* padding: 57px 27px; */
+}
+
+.main--header {
+  padding: 30px 0 16px 24px;
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--list {
+  line-height: 2rem;
+  padding: 0 0 0 60px;
+  /* margin-top: 46px; */
+  max-width: 400px;
+}
+
+.main--list > li {
+  line-height: 19px;
+  padding-block: 10px;
 }
